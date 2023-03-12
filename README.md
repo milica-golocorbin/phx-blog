@@ -172,3 +172,5 @@ defmodule BlogWeb.Layouts do
   end
 end
 ```
+
+### Add additional styles, change colors.
