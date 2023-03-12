@@ -11,6 +11,7 @@
     <.live_title suffix=" · Phoenix Framework">
       <%= assigns[:page_title] || "Blog" %>
     </.live_title>
+    <link rel="icon" type="image/x-icon" href={~p"/images/favicon.svg"} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +22,7 @@
     <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}>
     </script>
   </head>
-  <body class="w-screen min-h-screen flex flex-col text-slate-900 leading-normal tracking-wide">
+  <body class="w-screen min-h-screen flex flex-col text-slate-900 leading-normal tracking-wide antialiased">
     <%= @inner_content %>
   </body>
 </html>
